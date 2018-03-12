@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/app_name"
+        android:title="@string/app_name"
+        android:icon="@drawable/samsung_plus_icon_google_play">
+    <group
+        android:id="@+id/Menu2">
+
+        <item
+            android:id="@+id/Manual"
+            android:title="Exit" />
+
+        <item
+            android:id="@+id/Internet"
+            android:title="Delete All Movies" />
+
+    </group>
+
+</item>
+
+    <item
+        android:id="@+id/app_name2"
+        android:title="@string/app_name"
+        android:icon="@drawable/samsung_plus_icon_google_play">
+    <menu>
+
+    <group
+        android:id="@+id/Menu1"
+        android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/Exit"
+            android:title="Exit" />
+
+        <item
+            android:id="@+id/Delete"
+            android:title="Delete All Movies" />
+
+    </group>
+    </menu>
+
+</item>
+
+</menu>
